@@ -1,4 +1,3 @@
-student_count = 11
 #first we print the list of students 
 puts  "The students of Villians Academy"
 puts  "------------"
@@ -20,6 +19,6 @@ students.each do |student|
   puts student
 end
 #finally, we print the total number of students
-print "Overall, we have #{student_count}"
+print "Overall, we have #{students.count}"
 #it's important that print() doesn't add new line characters
 puts " great students"
